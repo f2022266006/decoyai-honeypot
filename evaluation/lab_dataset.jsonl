@@ -1,0 +1,10 @@
+{"payload":"hello laboratory","expected_category":"unknown_probe"}
+{"payload":"USER admin PASS training-only","expected_category":"credential_probe"}
+{"payload":"root login attempt","expected_category":"credential_probe"}
+{"payload":"nmap service probe","expected_category":"scanner_probe"}
+{"payload":"masscan banner check","expected_category":"scanner_probe"}
+{"payload":"curl http://example.invalid/training","expected_category":"command_probe"}
+{"payload":"chmod +x harmless-file","expected_category":"command_probe"}
+{"payload":"' OR 1=1 --","expected_category":"injection_probe"}
+{"payload":"../../training/path","expected_category":"injection_probe"}
+{"payload":"","expected_category":"empty_probe"}
