@@ -110,7 +110,7 @@ decoyai-honeypot/
 - [Threat model](docs/THREAT_MODEL.md)
 - [Security policy](SECURITY.md)
 
-## Suggested GitHub Topics
+## GitHub Topics
 
 `python` · `cybersecurity` · `honeypot` · `cyber-deception` ·
 `threat-detection` · `sqlite` · `security-dashboard` · `blue-team`
